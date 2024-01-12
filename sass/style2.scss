@@ -1,0 +1,127 @@
+/*inportation*/
+
+@import "lib/reset.scss";
+@import "lib/generale.scss";
+@import "lib/police.scss";
+
+@import "lib/header.scss";
+@import "lib/main.scss";
+@import "lib/footer.scss";
+
+
+body {
+    font-family: $police-body;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    background: $couleur-body-fond ;
+
+    .wrapper {
+        width: 95%;
+        max-width: 1550px;
+        margin: 0 auto;
+        background: $couleur-wraper;
+    }
+
+}
+
+/* Menu imbrication &hover */
+.menu {
+    background: $couleur-menu;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+
+    .menu-item a {
+        background: $couleur-menu-item ;
+        color: $couleur-menu-item-texte;
+        padding: 10px 20px;
+        margin: 1px 0px;
+        display: block;
+
+        &:hover {
+            background: $couleur-menu-item-hover;
+            color: $couleur-menu-item-texte-hover;
+        }
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header-title {
+    padding-right: 1rem;
+    margin: 0;
+
+
+}
+
+.article {
+    flex: 0 0 44%;
+
+    /* bt Imbrication &hover */
+    .bt {
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        vertical-align: middle;
+
+    }
+
+    .bt a {
+        color: $couleur-bt-texte;
+        display: block;
+        background: $couleur-bt-violet;
+        padding: .375rem .75rem;
+        border-radius: .25rem;
+
+        &:hover {
+            color: $couleur-bt-texte-hover;
+            background: $couleur-bt-hover-move;
+        }
+    }
+
+
+}
+
+.containerVignettes {
+    padding: 1.5rem;
+    box-shadow: -1px -1px 20px 10px $couleur-vignettes;
+}
+
+.vignette {
+    position: relative;
+    flex: 0 0 29%;
+
+    &:hover .vignette-figcaption {
+        display: block;
+    }
+
+    .vignette-figcaption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: $couleur-vignette-traparence-gris;
+        display: none;
+        columns: #ededed;
+        padding: 1rem;
+    }
+
+
+}
+
+/* teste5 ok? */
+
+/* Aparence et mise en page conforme a exo3 
+.il reste a modifier non de ficher sass 
+-Non de fichier non conforme pour exo3 
+-corespondence lige css non conforme exo3 */

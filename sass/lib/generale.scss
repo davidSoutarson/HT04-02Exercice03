@@ -1,0 +1,138 @@
+/* ++ Couleur geneale */
+/* MON VARIBLE COULEUR */
+
+// body
+$couleur-body-fond: #ededed;
+
+// a
+$couleur-a-texte-defo: #ae2123;
+
+// a hover
+$couleur-a-texte-hover: #999;
+
+// wrapper
+$couleur-wraper: #fff;
+
+// menu 
+$couleur-menu: #543973;
+
+// menu-item a
+$couleur-menu-item-texte: white;
+$couleur-menu-item: #3B2851;
+
+// menu-item a hover
+$couleur-menu-item-texte-hover: #d4c7e4;
+$couleur-menu-item-hover: #6d4a95;
+
+// main
+$couleur-main-fond: #fff;
+
+// bt a
+$couleur-bt-texte: #fff;
+$couleur-bt-violet: #3B2851;
+
+// bt a hover
+$couleur-bt-texte-hover: #cccccc;
+$couleur-bt-hover-move: #6d4a95;
+
+// vignettes couleur 
+$couleur-vignette-traparence-gris: rgba(255, 255, 255, 0.7);
+$couleur-vignettes: #ededed;
+
+/* test generale */
+html {
+    line-height: 1;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+q,
+blockquote {
+    quotes: none;
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+    content: "";
+    content: none;
+}
+
+a img {
+    border: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/*grilles verticale rem*/
+/* line 4, ../sass/_typo.scss */
+html {
+    font-size: 1.25em;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+p,
+ul,
+ol {
+    line-height: 1.5rem;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+a {
+    color: $couleur-a-texte-defo;
+    text-decoration: none;
+
+    &:hover {
+        color: $couleur-a-texte-hover;
+    }
+}
+
+/*h1 h2 teste !*/
+h1,
+.h1 {
+    font-size: 3rem;
+    line-height: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5em;
+}
+
+h2,
+h2 {
+    font-size: 2.4rem;
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* fin test generale */
