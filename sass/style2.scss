@@ -1,15 +1,15 @@
-/* Bonjour je n'ais pas Compass. Voir explication sur fichier joint: explication.txt ou readme.md
-* Dans ce fichier,je choisie de centralisez .(mais importations)
-* Importez ce fichier en utilisant le code HTML suivant ou équivalent :
-* <link href="stylesheets/style2.css" media="screen, projection" rel="stylesheet" type="text/css" />
-*/
-
-/*Comende utiliser pour sincro sass 
-*COMENDE: sass --watch sass/style2.scss:stylesheets/style2.css --style==expanded
-*/
-
-/* importation
-*respectent les comentaire du fichier style.css fournie pour l'exercice
+/*
+  Bonjour je n'ais pas Compass. Voir explication sur fichier joint: explication.txt ou readme.md
+  * Dans ce fichier,je choisie de centralisez .(mais importations)
+  * Importez ce fichier en utilisant le code HTML suivant ou équivalent :
+  * <link href="stylesheets/style2.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  *
+  Comende utiliser pour sincro sass 
+  *COMENDE: sass --watch sass/style2.scss:stylesheets/style2.css --style==expanded
+  *
+  * importation
+  *respectent les comentaire du fichier style.css fournie pour l'exercice.
+  ______________________________________________________________________________________________________
 */
 
 @import "lib/reset.scss";
