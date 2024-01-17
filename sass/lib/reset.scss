@@ -79,10 +79,75 @@ time,
 mark,
 audio,
 video {
+    /*Provien de reset.scss */
     margin: 0;
     padding: 0;
     border: 0;
     font: inherit;
     font-size: 100%;
     vertical-align: baseline;
+}
+
+
+html {
+    /*Provien de reset.scss */
+    line-height: 1;
+}
+
+ol,
+ul {
+    /*Provien de reset.scss */
+    list-style: none;
+}
+
+table {
+    /*Provien de reset.scss */
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,
+th,
+td {
+    /*Provien de reset.scss */
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+q,
+blockquote {
+    /*Provien de reset.scss */
+    quotes: none;
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+    /*Provien de reset.scss*/
+    content: "";
+    content: none;
+}
+
+a img {
+    /*Provien de reset.scss*/
+    border: none;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    /*Provien de reset.scss */
+    display: block;
 }

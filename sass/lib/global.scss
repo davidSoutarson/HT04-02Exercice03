@@ -39,56 +39,9 @@ $couleur-bt-hover-move: #6d4a95;
 $couleur-vignette-traparence-gris: rgba(255, 255, 255, 0.7);
 $couleur-vignettes: #ededed;
 
-/* test generale */
-html {
-    line-height: 1;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-caption,
-th,
-td {
-    text-align: left;
-    font-weight: normal;
-    vertical-align: middle;
-}
-
-q,
-blockquote {
-    quotes: none;
-}
-
-q:before,
-q:after,
-blockquote:before,
-blockquote:after {
-    content: "";
-    content: none;
-}
-
-a img {
-    border: none;
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-    display: block;
-}
+/* test generale 
+*Ranplacer par fichie reset.css
+metoiage fichier global*/
 
 /*grilles verticale rem*/
 /* line 4, ../sass/_typo.scss */
@@ -96,10 +49,7 @@ html {
     font-size: 1.25em;
 }
 
-ol,
-ul {
-    list-style: none;
-}
+
 
 p,
 ul,
