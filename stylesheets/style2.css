@@ -66,11 +66,29 @@ metoiage fichier global*/
     ** go typo.scss
     font-size: 1.25em;
 } */
+html {
+  /* Creer dan globle !repetion? */
+  font-size: 1.25em; }
+
+body {
+  /*go to Global.scss*/
+  line-height: 1.2rem;
+  background: #ededed; }
+body .wrapper {
+  /*go to Global.scss*/
+  width: 95%;
+  max-width: 1550px;
+  margin: 0 auto;
+  background: #fff; }
+
 a {
   color: #ae2123;
   text-decoration: none; }
 a:hover {
   color: #999; }
+
+img {
+  max-width: 100%; }
 
 /*h1 h2 teste !*/
 /* fin test generale */
@@ -124,28 +142,14 @@ ul ul, ol ol, ul ol, ol ul, .no-margin {
   align-items: center;
   padding-top: 1.5rem; }
 
-/* fichier ? main */
-main {
-  background: #fff;
-  padding-top: 1.5rem; }
-
-.main-footer {
-  padding: 1rem;
-  margin-top: 1.5rem;
-  text-align: center;
-  justify-content: center; }
-
-body {
-  line-height: 1.2rem;
-  background: #ededed; }
-body .wrapper {
-  width: 95%;
-  max-width: 1550px;
-  margin: 0 auto;
-  background: #fff; }
+/* Creer dans header.scss */
+.header-title {
+  padding-right: 1rem;
+  margin: 0; }
 
 /* Menu imbrication &hover */
 .menu {
+  /* Go to hearder.scss */
   background: #543973;
   margin: 0;
   padding: 0;
@@ -162,41 +166,47 @@ body .wrapper {
   background: #6d4a95;
   color: #d4c7e4; }
 
+/* fin de hearder.scss */
+/* fichier ? main */
+main {
+  background: #fff;
+  padding-top: 1.5rem; }
+
 .row {
+  /*go to main.scss*/
   display: flex;
   justify-content: space-evenly;
   margin-top: 1.5rem; }
 
-img {
-  max-width: 100%; }
-
-.header-title {
-  padding-right: 1rem;
-  margin: 0; }
-
 .article {
+  /*go to main.scss*/
   flex: 0 0 44%;
   /* bt Imbrication &hover */ }
 .article .bt {
+  /*go to main.scss*/
   display: inline-block;
   text-align: center;
   justify-content: center;
   vertical-align: middle; }
 .article .bt a {
+  /*go to main.scss*/
   color: #fff;
   display: block;
   background: #3B2851;
   padding: .375rem .75rem;
   border-radius: .25rem; }
 .article .bt a:hover {
+  /*go to main.scss*/
   color: #cccccc;
   background: #6d4a95; }
 
 .containerVignettes {
+  /*go to main.scss*/
   padding: 1.5rem;
   box-shadow: -1px -1px 20px 10px #ededed; }
 
 .vignette {
+  /*go to main.scss*/
   position: relative;
   flex: 0 0 29%; }
 .vignette:hover .vignette-figcaption {
@@ -210,5 +220,11 @@ img {
   display: none;
   columns: #ededed;
   padding: 1rem; }
+
+.main-footer {
+  padding: 1rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  justify-content: center; }
 
 /*# sourceMappingURL=style2.css.map */

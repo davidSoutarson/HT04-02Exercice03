@@ -3,3 +3,71 @@ main {
     background: $couleur-main-fond;
     padding-top: 1.5rem;
 }
+
+.row {
+    /*go to main.scss*/
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
+}
+
+.article {
+    /*go to main.scss*/
+    flex: 0 0 44%;
+
+    /* bt Imbrication &hover */
+    .bt {
+        /*go to main.scss*/
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+        vertical-align: middle;
+
+    }
+
+    .bt a {
+        /*go to main.scss*/
+        color: $couleur-bt-texte;
+        display: block;
+        background: $couleur-bt-violet;
+        padding: .375rem .75rem;
+        border-radius: .25rem;
+
+        &:hover {
+            /*go to main.scss*/
+            color: $couleur-bt-texte-hover;
+            background: $couleur-bt-hover-move;
+        }
+    }
+
+
+}
+
+.containerVignettes {
+    /*go to main.scss*/
+    padding: 1.5rem;
+    box-shadow: -1px -1px 20px 10px $couleur-vignettes;
+}
+
+.vignette {
+    /*go to main.scss*/
+    position: relative;
+    flex: 0 0 29%;
+
+    &:hover .vignette-figcaption {
+        display: block;
+    }
+
+    .vignette-figcaption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: $couleur-vignette-traparence-gris;
+        display: none;
+        columns: #ededed;
+        padding: 1rem;
+    }
+
+
+}

@@ -5,3 +5,35 @@
     padding-top: 1.5rem;
 
 }
+
+/* Creer dans header.scss */
+.header-title {
+    padding-right: 1rem;
+    margin: 0;
+}
+
+/* Menu imbrication &hover */
+.menu {
+    /* Go to hearder.scss */
+    background: $couleur-menu;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+
+    .menu-item a {
+        background: $couleur-menu-item ;
+        color: $couleur-menu-item-texte;
+        padding: 10px 20px;
+        margin: 1px 0px;
+        display: block;
+
+        &:hover {
+            background: $couleur-menu-item-hover;
+            color: $couleur-menu-item-texte-hover;
+        }
+    }
+}
+
+/* fin de hearder.scss */
