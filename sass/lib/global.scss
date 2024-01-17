@@ -1,5 +1,6 @@
-/* ++ Couleur geneale */
-/* MON VARIBLE COULEUR */
+/* Le fichier globale contien:
+* MON VARIBLE COULEUR 
+* Et mise enpage globale*/
 
 // body
 $couleur-body-fond: #ededed;
@@ -39,31 +40,19 @@ $couleur-bt-hover-move: #6d4a95;
 $couleur-vignette-traparence-gris: rgba(255, 255, 255, 0.7);
 $couleur-vignettes: #ededed;
 
-/* test generale 
-*Ranplacer par fichie reset.css
-metoiage fichier global*/
 
-/*grilles verticale rem*/
-/* line 4, ../sass/_typo.scss */
-/* html {
-    ** go typo.scss
-    font-size: 1.25em;
-} */
-
-//creer dans globale !repetition?
 html {
-    /* Creer dan globle !repetion? */
+    /*Provien Global.scss*/
     font-size: 1.25em;
 }
 
 body {
-    //envoyer ver tipo
-    /*go to Global.scss*/
+    /*Provien Global.scss*/
     line-height: 1.2rem;
     background: $couleur-body-fond ;
 
     .wrapper {
-        /*go to Global.scss*/
+        /*Provien Global.scss*/
         width: 95%;
         max-width: 1550px;
         margin: 0 auto;
@@ -73,6 +62,7 @@ body {
 }
 
 a {
+    /*Provien Global.scss*/
     color: $couleur-a-texte-defo;
     text-decoration: none;
 
@@ -82,12 +72,8 @@ a {
 }
 
 img {
+    /*Provien Global.scss*/
     max-width: 100%;
 }
 
-/*h1 h2 teste !*/
-//h1, .h1 deplacer ver typo.scss
-
-//h2, .h2 deplacer ver typo.scss
-
-/* fin test generale */
+/* fin fichier global.scss */

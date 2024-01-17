@@ -2,13 +2,14 @@
 * Dans ce fichier,je choisie de centralisez .(mais importations)
 * Importez ce fichier en utilisant le code HTML suivant ou équivalent :
 * <link href="stylesheets/style2.css" media="screen, projection" rel="stylesheet" type="text/css" />
-*
-*Comende utiliser pour sincro sass 
+*/
+
+/*Comende utiliser pour sincro sass 
 *COMENDE: sass --watch sass/style2.scss:stylesheets/style2.css --style==expanded
 */
 
 /* importation
-*respectent les comentaire du fichier style.css fournie pour lexercice
+*respectent les comentaire du fichier style.css fournie pour l'exercice
 */
 
 @import "lib/reset.scss";

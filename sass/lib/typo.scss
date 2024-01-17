@@ -4,20 +4,20 @@
 $police-body: 'BenchNine', sans-serif;
 
 html {
-    /* go typo.scss*/
+    /*Provien typo.scss*/
     font-size: 1.25em;
 }
 
 body {
+    /*Provien typo.scss*/
     font-family: $police-body;
     font-size: 1rem;
-    //créer dans typo
     line-height: 1.5rem;
 }
 
 h1,
 .h1 {
-    /*go typo.scss*/
+    /*Provien typo.scss*/
     font-size: 3rem;
     line-height: 1.5rem;
     margin-top: 3rem;
@@ -26,7 +26,7 @@ h1,
 
 h2,
 h2 {
-    /*go typo.scss*/
+    /*Provien typo.scss*/
     font-size: 2.4rem;
     line-height: 1.5rem;
     margin-top: 1.5rem;
@@ -36,7 +36,7 @@ h2 {
 // créer dans typo
 h3,
 .h3 {
-    /*créer dans typo.scss*/
+    /*Provien typo.scss*/
     font-size: 1.35rem;
     line-height: 1.3rem;
     margin-top: 0.5em;
@@ -46,7 +46,7 @@ h3,
 p,
 ul,
 ol {
-    /*go to typo.scss*/
+    /*Provien typo.scss*/
     line-height: 1.5rem;
     margin-top: 0.5em;
     margin-bottom: 1em;
@@ -54,11 +54,13 @@ ol {
 
 /*Supresion marge haute et bas 
 **créer dans typo.scss */
+
 ul ul,
 ol ol,
 ul ol,
 ol ul,
 .no-margin {
+    /*Provien typo.scss*/
     margin-top: 0em;
     margin-bottom: 0em;
 }

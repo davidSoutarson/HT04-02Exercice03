@@ -3,12 +3,12 @@
 * Dans ce fichier,je choisie de centralisez .(mais importations)
 * Importez ce fichier en utilisant le code HTML suivant ou équivalent :
 * <link href="stylesheets/style2.css" media="screen, projection" rel="stylesheet" type="text/css" />
-*
-*Comende utiliser pour sincro sass 
+*/
+/*Comende utiliser pour sincro sass 
 *COMENDE: sass --watch sass/style2.scss:stylesheets/style2.css --style==expanded
 */
 /* importation
-*respectent les comentaire du fichier style.css fournie pour lexercice
+*respectent les comentaire du fichier style.css fournie pour l'exercice
 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   /*Provien de reset.scss */
@@ -55,76 +55,71 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /*Provien de reset.scss */
   display: block; }
 
-/* ++ Couleur geneale */
-/* MON VARIBLE COULEUR */
-/* test generale 
-*Ranplacer par fichie reset.css
-metoiage fichier global*/
-/*grilles verticale rem*/
-/* line 4, ../sass/_typo.scss */
-/* html {
-    ** go typo.scss
-    font-size: 1.25em;
-} */
+/*fin de reset.scss*/
+/* Le fichier globale contien:
+* MON VARIBLE COULEUR 
+* Et mise enpage globale*/
 html {
-  /* Creer dan globle !repetion? */
+  /*Provien Global.scss*/
   font-size: 1.25em; }
 
 body {
-  /*go to Global.scss*/
+  /*Provien Global.scss*/
   line-height: 1.2rem;
   background: #ededed; }
 body .wrapper {
-  /*go to Global.scss*/
+  /*Provien Global.scss*/
   width: 95%;
   max-width: 1550px;
   margin: 0 auto;
   background: #fff; }
 
 a {
+  /*Provien Global.scss*/
   color: #ae2123;
   text-decoration: none; }
 a:hover {
   color: #999; }
 
 img {
+  /*Provien Global.scss*/
   max-width: 100%; }
 
-/*h1 h2 teste !*/
-/* fin test generale */
+/* fin fichier global.scss */
 /*Les diferente police de caractere*/
 html {
-  /* go typo.scss*/
+  /*Provien typo.scss*/
   font-size: 1.25em; }
 
 body {
+  /*Provien typo.scss*/
   font-family: "BenchNine", sans-serif;
   font-size: 1rem;
   line-height: 1.5rem; }
 
 h1, .h1 {
-  /*go typo.scss*/
+  /*Provien typo.scss*/
   font-size: 3rem;
   line-height: 1.5rem;
   margin-top: 3rem;
   margin-bottom: 1.5em; }
 
 h2, h2 {
-  /*go typo.scss*/
+  /*Provien typo.scss*/
   font-size: 2.4rem;
   line-height: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem; }
 
 h3, .h3 {
-  /*créer dans typo.scss*/
+  /*Provien typo.scss*/
   font-size: 1.35rem;
   line-height: 1.3rem;
   margin-top: 0.5em;
   margin-bottom: 1em; }
 
 p, ul, ol {
-  /*go to typo.scss*/
+  /*Provien typo.scss*/
   line-height: 1.5rem;
   margin-top: 0.5em;
   margin-bottom: 1em; }
@@ -132,6 +127,7 @@ p, ul, ol {
 /*Supresion marge haute et bas 
 **créer dans typo.scss */
 ul ul, ol ol, ul ol, ol ul, .no-margin {
+  /*Provien typo.scss*/
   margin-top: 0em;
   margin-bottom: 0em; }
 
@@ -142,14 +138,11 @@ ul ul, ol ol, ul ol, ol ul, .no-margin {
   align-items: center;
   padding-top: 1.5rem; }
 
-/* Creer dans header.scss */
 .header-title {
   padding-right: 1rem;
   margin: 0; }
 
-/* Menu imbrication &hover */
 .menu {
-  /* Go to hearder.scss */
   background: #543973;
   margin: 0;
   padding: 0;
@@ -167,51 +160,53 @@ ul ul, ol ol, ul ol, ol ul, .no-margin {
   color: #d4c7e4; }
 
 /* fin de hearder.scss */
-/* fichier ? main */
+/* fichier  main */
 main {
+  /*Provien main.scss*/
   background: #fff;
   padding-top: 1.5rem; }
 
 .row {
-  /*go to main.scss*/
+  /*Provien main.scss*/
   display: flex;
   justify-content: space-evenly;
   margin-top: 1.5rem; }
 
 .article {
-  /*go to main.scss*/
-  flex: 0 0 44%;
-  /* bt Imbrication &hover */ }
+  /*Provien main.scss*/
+  flex: 0 0 44%; }
 .article .bt {
-  /*go to main.scss*/
+  /*Provien main.scss*/
   display: inline-block;
   text-align: center;
   justify-content: center;
   vertical-align: middle; }
 .article .bt a {
-  /*go to main.scss*/
+  /*Provien main.scss*/
   color: #fff;
   display: block;
   background: #3B2851;
   padding: .375rem .75rem;
   border-radius: .25rem; }
 .article .bt a:hover {
-  /*go to main.scss*/
+  /*Provien main.scss*/
   color: #cccccc;
   background: #6d4a95; }
 
 .containerVignettes {
-  /*go to main.scss*/
+  /*Provien main.scss*/
   padding: 1.5rem;
   box-shadow: -1px -1px 20px 10px #ededed; }
 
 .vignette {
-  /*go to main.scss*/
+  /*Provien main.scss*/
   position: relative;
   flex: 0 0 29%; }
 .vignette:hover .vignette-figcaption {
+  /*Provien main.scss*/
   display: block; }
 .vignette .vignette-figcaption {
+  /*Provien main.scss*/
   position: absolute;
   bottom: 0;
   left: 0;
@@ -221,6 +216,7 @@ main {
   columns: #ededed;
   padding: 1rem; }
 
+/* fain ficchier main.scss*/
 .main-footer {
   padding: 1rem;
   margin-top: 1.5rem;
