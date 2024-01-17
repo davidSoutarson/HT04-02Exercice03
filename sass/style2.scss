@@ -2,6 +2,9 @@
 * Dans ce fichier,je choisie de centralisez .(mais importations)
 * Importez ce fichier en utilisant le code HTML suivant ou équivalent :
 * <link href="stylesheets/style2.css" media="screen, projection" rel="stylesheet" type="text/css" />
+*
+*Comende utiliser pour sincro sass 
+*COMENDE: sass --watch sass/style2.scss:stylesheets/style2.css --style==expanded
 */
 
 /* importation
@@ -9,7 +12,7 @@
 */
 
 @import "lib/reset.scss";
-@import "lib/globale.scss";
+@import "lib/global.scss";
 @import "lib/typo.scss";
 @import "lib/header.scss";
 @import "lib/main.scss";

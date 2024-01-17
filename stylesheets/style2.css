@@ -1,189 +1,82 @@
-/*inportation*/
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+@charset "UTF-8";
+/* Bonjour je n'ais pas Compass. Voir explication sur fichier joint: explication.txt ou readme.md
+* Dans ce fichier,je choisie de centralisez .(mais importations)
+* Importez ce fichier en utilisant le code HTML suivant ou équivalent :
+* <link href="stylesheets/style2.css" media="screen, projection" rel="stylesheet" type="text/css" />
+*
+*Comende utiliser pour sincro sass 
+*COMENDE: sass --watch sass/style2.scss:stylesheets/style2.css --style==expanded
+*/
+/* importation
+*respectent les comentaire du fichier style.css fournie pour lexercice
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
   font: inherit;
   font-size: 100%;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 /* ++ Couleur geneale */
 /* MON VARIBLE COULEUR */
 /* test generale */
 html {
-  line-height: 1;
-}
+  line-height: 1; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
-caption,
-th,
-td {
+caption, th, td {
   text-align: left;
   font-weight: normal;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
-q,
-blockquote {
-  quotes: none;
-}
+q, blockquote {
+  quotes: none; }
 
-q:before,
-q:after,
-blockquote:before,
-blockquote:after {
+q:before, q:after, blockquote:before, blockquote:after {
   content: "";
-  content: none;
-}
+  content: none; }
 
 a img {
-  border: none;
-}
+  border: none; }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
-}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
 
 /*grilles verticale rem*/
 /* line 4, ../sass/_typo.scss */
 html {
-  font-size: 1.25em;
-}
+  font-size: 1.25em; }
 
-ol,
-ul {
-  list-style: none;
-}
+ol, ul {
+  list-style: none; }
 
-p,
-ul,
-ol {
+p, ul, ol {
   line-height: 1.5rem;
   margin-top: 0.5em;
-  margin-bottom: 1em;
-}
+  margin-bottom: 1em; }
 
 a {
   color: #ae2123;
-  text-decoration: none;
-}
+  text-decoration: none; }
 a:hover {
-  color: #999;
-}
+  color: #999; }
 
 /*h1 h2 teste !*/
-h1,
-.h1 {
+h1, .h1 {
   font-size: 3rem;
   line-height: 1.5rem;
   margin-top: 3rem;
-  margin-bottom: 1.5em;
-}
+  margin-bottom: 1.5em; }
 
-h2,
-h2 {
+h2, h2 {
   font-size: 2.4rem;
   line-height: 1.5rem;
   margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
+  margin-bottom: 1.5rem; }
 
 /* fin test generale */
 /*Les diferente police de caractere*/
@@ -191,34 +84,29 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1.5rem;
-}
+  padding-top: 1.5rem; }
 
 /* fichier ? main */
 main {
   background: #fff;
-  padding-top: 1.5rem;
-}
+  padding-top: 1.5rem; }
 
 .main-footer {
   padding: 1rem;
   margin-top: 1.5rem;
   text-align: center;
-  justify-content: center;
-}
+  justify-content: center; }
 
 body {
   font-family: "BenchNine", sans-serif;
   font-size: 1rem;
   line-height: 1.2rem;
-  background: #ededed;
-}
+  background: #ededed; }
 body .wrapper {
   width: 95%;
   max-width: 1550px;
   margin: 0 auto;
-  background: #fff;
-}
+  background: #fff; }
 
 /* Menu imbrication &hover */
 .menu {
@@ -227,69 +115,56 @@ body .wrapper {
   padding: 0;
   display: flex;
   justify-content: center;
-  border-radius: 1em;
-}
+  border-radius: 1em; }
 .menu .menu-item a {
   background: #3B2851;
   color: white;
   padding: 10px 20px;
   margin: 1px 0px;
-  display: block;
-}
+  display: block; }
 .menu .menu-item a:hover {
   background: #6d4a95;
-  color: #d4c7e4;
-}
+  color: #d4c7e4; }
 
 .row {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 1.5rem;
-}
+  margin-top: 1.5rem; }
 
 img {
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 .header-title {
   padding-right: 1rem;
-  margin: 0;
-}
+  margin: 0; }
 
 .article {
   flex: 0 0 44%;
-  /* bt Imbrication &hover */
-}
+  /* bt Imbrication &hover */ }
 .article .bt {
   display: inline-block;
   text-align: center;
   justify-content: center;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 .article .bt a {
   color: #fff;
   display: block;
   background: #3B2851;
   padding: .375rem .75rem;
-  border-radius: .25rem;
-}
+  border-radius: .25rem; }
 .article .bt a:hover {
   color: #cccccc;
-  background: #6d4a95;
-}
+  background: #6d4a95; }
 
 .containerVignettes {
   padding: 1.5rem;
-  box-shadow: -1px -1px 20px 10px #ededed;
-}
+  box-shadow: -1px -1px 20px 10px #ededed; }
 
 .vignette {
   position: relative;
-  flex: 0 0 29%;
-}
+  flex: 0 0 29%; }
 .vignette:hover .vignette-figcaption {
-  display: block;
-}
+  display: block; }
 .vignette .vignette-figcaption {
   position: absolute;
   bottom: 0;
@@ -298,7 +173,6 @@ img {
   background: rgba(255, 255, 255, 0.7);
   display: none;
   columns: #ededed;
-  padding: 1rem;
-}
+  padding: 1rem; }
 
 /*# sourceMappingURL=style2.css.map */
