@@ -45,19 +45,14 @@ metoiage fichier global*/
 
 /*grilles verticale rem*/
 /* line 4, ../sass/_typo.scss */
-html {
+/* html {
+    ** go typo.scss
     font-size: 1.25em;
-}
+} */
 
 
 
-p,
-ul,
-ol {
-    line-height: 1.5rem;
-    margin-top: 0.5em;
-    margin-bottom: 1em;
-}
+
 
 a {
     color: $couleur-a-texte-defo;
@@ -69,20 +64,8 @@ a {
 }
 
 /*h1 h2 teste !*/
-h1,
-.h1 {
-    font-size: 3rem;
-    line-height: 1.5rem;
-    margin-top: 3rem;
-    margin-bottom: 1.5em;
-}
+//h1, .h1 deplacer ver typo.scss
 
-h2,
-h2 {
-    font-size: 2.4rem;
-    line-height: 1.5rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
+//h2, .h2 deplacer ver typo.scss
 
 /* fin test generale */

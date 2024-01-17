@@ -62,14 +62,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 metoiage fichier global*/
 /*grilles verticale rem*/
 /* line 4, ../sass/_typo.scss */
-html {
-  font-size: 1.25em; }
-
-p, ul, ol {
-  line-height: 1.5rem;
-  margin-top: 0.5em;
-  margin-bottom: 1em; }
-
+/* html {
+    ** go typo.scss
+    font-size: 1.25em;
+} */
 a {
   color: #ae2123;
   text-decoration: none; }
@@ -77,20 +73,51 @@ a:hover {
   color: #999; }
 
 /*h1 h2 teste !*/
+/* fin test generale */
+/*Les diferente police de caractere*/
+html {
+  /* go typo.scss*/
+  font-size: 1.25em; }
+
+body {
+  font-family: "BenchNine", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem; }
+
 h1, .h1 {
+  /*go typo.scss*/
   font-size: 3rem;
   line-height: 1.5rem;
   margin-top: 3rem;
   margin-bottom: 1.5em; }
 
 h2, h2 {
+  /*go typo.scss*/
   font-size: 2.4rem;
   line-height: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem; }
 
-/* fin test generale */
-/*Les diferente police de caractere*/
+h3, .h3 {
+  /*créer dans typo.scss*/
+  font-size: 1.35rem;
+  line-height: 1.3rem;
+  margin-top: 0.5em;
+  margin-bottom: 1em; }
+
+p, ul, ol {
+  /*go to typo.scss*/
+  line-height: 1.5rem;
+  margin-top: 0.5em;
+  margin-bottom: 1em; }
+
+/*Supresion marge haute et bas 
+**créer dans typo.scss */
+ul ul, ol ol, ul ol, ol ul, .no-margin {
+  margin-top: 0em;
+  margin-bottom: 0em; }
+
+/*fin typos scss*/
 .header {
   display: flex;
   justify-content: space-between;
@@ -109,8 +136,6 @@ main {
   justify-content: center; }
 
 body {
-  font-family: "BenchNine", sans-serif;
-  font-size: 1rem;
   line-height: 1.2rem;
   background: #ededed; }
 body .wrapper {
