@@ -1,4 +1,7 @@
+/* fichier header.scss*/
+
 .header {
+    /*provien de header.scss*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,11 +10,13 @@
 }
 
 .header-title {
+    /*provien de header.scss*/
     padding-right: 1rem;
     margin: 0;
 }
 
 .menu {
+    /*provien de header.scss*/
     background: $couleur-menu;
     margin: 0;
     padding: 0;
@@ -20,6 +25,7 @@
     border-radius: 1em;
 
     .menu-item a {
+        /*provien de header.scss*/
         background: $couleur-menu-item ;
         color: $couleur-menu-item-texte;
         padding: 10px 20px;
@@ -27,6 +33,7 @@
         display: block;
 
         &:hover {
+            /*provien de header.scss*/
             background: $couleur-menu-item-hover;
             color: $couleur-menu-item-texte-hover;
         }

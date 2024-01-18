@@ -135,17 +135,21 @@ ul ul, ol ol, ul ol, ol ul, .no-margin {
   margin-bottom: 0em; }
 
 /*fin typos scss*/
+/* fichier header.scss*/
 .header {
+  /*provien de header.scss*/
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 1.5rem; }
 
 .header-title {
+  /*provien de header.scss*/
   padding-right: 1rem;
   margin: 0; }
 
 .menu {
+  /*provien de header.scss*/
   background: #543973;
   margin: 0;
   padding: 0;
@@ -153,12 +157,14 @@ ul ul, ol ol, ul ol, ol ul, .no-margin {
   justify-content: center;
   border-radius: 1em; }
 .menu .menu-item a {
+  /*provien de header.scss*/
   background: #3B2851;
   color: white;
   padding: 10px 20px;
   margin: 1px 0px;
   display: block; }
 .menu .menu-item a:hover {
+  /*provien de header.scss*/
   background: #6d4a95;
   color: #d4c7e4; }
 
